@@ -27,4 +27,4 @@ if __name__ == "__main__":
         tokens2 = tokenize(file2)
         print(countCommonTokens(tokens1, tokens2))
     except Exception as e:
-        print(f"{e}: One or more of the files was not provided.")
+        print(f"{e}: Incorrect number of files or other error.")
